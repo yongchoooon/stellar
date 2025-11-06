@@ -1,0 +1,43 @@
+dataset:
+  target: dataloader.LanguageAdaptiveLabelDataset
+  params:
+    lang: "jp"
+    length: 100000
+    font_path: "../datagen/fonts/jp_ttf"
+    character_path: "data/character_jp.txt"
+    min_len: 1
+    max_len: 12
+    rec_image_shape: [3, 48, 320]
+
+model:
+  target: modules.LanguageAdaptiveLabelEncoder
+  params:
+    trainable: True
+    lang: "jp"
+    character_path: "data/character_jp.txt"
+    max_len: 12
+    emb_dim: 768
+    n_heads: 8
+    n_trans_layers: 12
+    lr: 1e-4
+    visual_dim: 4401
+    visual_len: 40
+
+    visual_config:
+      target: modules.PPOCREncoder
+      params:
+        lang: "jp"
+        rec_algorithm: "SVTR_LCNet"
+        ocr_version: "PP-OCRv4"
+        use_gpu: True
+
+num_workers: 16
+batch_size: 128
+check_freq: 10
+
+lightning:
+  max_epochs: 100
+  accelerator: "cuda"
+  devices: [0, 1]
+  default_root_dir: "../logs/pre_glyph_logs"
+  accumulate_grad_batches: 2

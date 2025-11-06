@@ -1,0 +1,5 @@
+target_path: '../generated/STIPLAR_korean_v48_e3'
+gt_path: '../STIPLAR-ko-eval/t_f'
+gt_txt_path: '../STIPLAR-ko-eval/i_t.txt'
+results_dir: "results"
+checkpoint_path: "../weights/style_encoder_ko.ckpt"

@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+__pycache__/
+.vscode/
+.env
+.hypothesis/
+
+fonts/
+bg_img/
+
+weights/
+generated/

@@ -1,0 +1,47 @@
+# License for anonymous-stellar Repository
+
+## Code
+All source code in this repository (STELLAR implementation and related scripts)
+is licensed under the MIT License. See below:
+
+MIT License
+
+Copyright (c) 2025 The STELLAR Authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+## Dataset
+The dataset in this repository is composed of web-crawled images collected under
+the following licenses: CC0, CC BY, CC BY-NC, and PDM.
+
+- Each image retains its original license, as documented in the metadata.
+- You must comply with the license terms of each individual image when using the dataset.
+- For CC BY images, proper attribution to the original creator (provided in metadata) is required.
+- For CC BY-NC images, commercial use is not permitted.
+- For CC0 and PDM images, the images are in the public domain and may be used without restriction.
+
+The dataset curators do not claim copyright on the images themselves,
+only on the metadata and organization of the dataset.
+
+---
+
+## Summary
+- Code: MIT License (free use, modification, distribution).
+- Dataset: Mixed open licenses (CC0, CC BY, CC BY-NC, PDM).
+  Users must follow the license of each individual item as noted in metadata.

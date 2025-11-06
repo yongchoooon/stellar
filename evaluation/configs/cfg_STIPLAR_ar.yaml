@@ -1,0 +1,5 @@
+target_path: '../generated/STIPLAR_arabic_v49_e5'
+gt_path: '../STIPLAR-ar-eval/t_f'
+gt_txt_path: '../STIPLAR-ar-eval/i_t.txt'
+results_dir: "results"
+checkpoint_path: "../weights/style_encoder_ar.ckpt"

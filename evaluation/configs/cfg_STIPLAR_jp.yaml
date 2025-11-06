@@ -1,0 +1,5 @@
+target_path: '../generated/STIPLAR_japanese_elice_v28_e8'
+gt_path: '../STIPLAR-jp-eval/t_f'
+gt_txt_path: '../STIPLAR-jp-eval/i_t.txt'
+results_dir: "results"
+checkpoint_path: "../weights/style_encoder_jp.ckpt"
