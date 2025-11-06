@@ -1,8 +1,9 @@
-# License for anonymous-stellar Repository
+# License for STELLAR Repository
 
-## Code
+## 1. Code License (MIT)
+
 All source code in this repository (STELLAR implementation and related scripts)
-is licensed under the MIT License. See below:
+is released under the MIT License.
 
 MIT License
 
@@ -26,22 +27,33 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 
 ---
 
-## Dataset
-The dataset in this repository is composed of web-crawled images collected under
-the following licenses: CC0, CC BY, CC BY-NC, and PDM.
+## 2. Dataset License (Mixed Open Licenses)
 
-- Each image retains its original license, as documented in the metadata.
-- You must comply with the license terms of each individual image when using the dataset.
-- For CC BY images, proper attribution to the original creator (provided in metadata) is required.
-- For CC BY-NC images, commercial use is not permitted.
-- For CC0 and PDM images, the images are in the public domain and may be used without restriction.
+The dataset included in this repository was built from web-crawled images
+originally distributed under the following open licenses:
+CC0, CC BY, CC BY-NC, and PDM.
 
-The dataset curators do not claim copyright on the images themselves,
-only on the metadata and organization of the dataset.
+Each image retains its original license, as recorded in the accompanying metadata.
+Users must comply with the license terms of each individual image.
+
+- CC BY: Attribution to the original creator is required.
+- CC BY-NC: Commercial use is not permitted.
+- CC0 and PDM: Public domain; free to use without restriction.
+
+Derived works (e.g., cropped or paired images) remain bound by the same
+license as the original image.
+The dataset curators do not claim copyright over the images themselves,
+only over the dataset’s organization and metadata, which are released
+under CC BY 4.0.
+
+The dataset is provided for research and educational purposes only.
 
 ---
 
-## Summary
-- Code: MIT License (free use, modification, distribution).
-- Dataset: Mixed open licenses (CC0, CC BY, CC BY-NC, PDM).
-  Users must follow the license of each individual item as noted in metadata.
+## 3. Summary
+
+- Code: MIT License  
+- Dataset: Mixed open licenses (CC0, CC BY, CC BY-NC, PDM).  
+  - Each image retains its original license.  
+  - Metadata and dataset structure are CC BY 4.0.  
+  - Users must follow each image’s license terms when reusing the dataset.
