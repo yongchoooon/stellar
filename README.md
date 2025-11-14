@@ -1,5 +1,9 @@
 # STELLAR: Scene Text Editor for Low-resource LAnguage and Real-world data
 
+> **Authors**: Yongdeuk Seo, Hyun-seok Min, Sungchul Choi
+
+[![arXiv](https://img.shields.io/badge/Arxiv-2511.09977-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2511.09977)
+
 ![Main_STELLAR](figs/main_stellar.png)
 
 ## Install
@@ -142,3 +146,17 @@ python evaluation_ocr_ar.py --config cfg_STIPLAR_ar --lang ar --credentials /pat
 
 ## Related Resources
 Special thanks to these great projects [weichaozeng/TextCtrl](https://github.com/weichaozeng/TextCtrl).
+
+## Citation
+
+```tex
+@misc{seo2025stellarscenetexteditor,
+      title={STELLAR: Scene Text Editor for Low-Resource Languages and Real-World Data}, 
+      author={Yongdeuk Seo and Hyun-seok Min and Sungchul Choi},
+      year={2025},
+      eprint={2511.09977},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.09977}, 
+}
+```
