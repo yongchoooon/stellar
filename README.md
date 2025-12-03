@@ -4,7 +4,8 @@
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2511.09977-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2511.09977)
 
-🎉 This repository is the official implementation of the oral paper accepted to the AIBSD workshop at AAAI 2026 — congratulations! 🎉 [Official Workshop Page](https://aibsdworkshop.github.io/2026/index.html)
+## 🎉 congratulations!
+This repository is the official implementation of the oral paper accepted to the AIBSD workshop at AAAI 2026: [Official Workshop Page](https://aibsdworkshop.github.io/2026/index.html)
 
 ![Main_STELLAR](figs/main_stellar.png)
 
