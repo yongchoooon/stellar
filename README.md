@@ -2,7 +2,7 @@
 
 > **Authors**: Yongdeuk Seo, Hyun-seok Min, Sungchul Choi
 
-[![arXiv](https://img.shields.io/badge/Arxiv-2511.09977-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2511.09977) [![Project Page](https://img.shields.io/badge/Project-Page-1a73e8?logo=Google%20Chrome&logoColor=white)](https://yongchoooon.github.io/stellar/) [![Hugging Face STIPLAR](https://img.shields.io/badge/HuggingFace-STIPLAR-ffcc4d?logo=huggingface&logoColor=000)](https://huggingface.co/datasets/yongchoooon/STIPLAR)
+[![arXiv](https://img.shields.io/badge/Arxiv-2511.09977-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2511.09977) [![Project Page](https://img.shields.io/badge/Project-Page-1a73e8?logo=Google%20Chrome&logoColor=white)](https://yongchoooon.github.io/stellar/) [![Hugging Face STIPLAR](https://img.shields.io/badge/HuggingFace-STIPLAR-ffcc4d?logo=huggingface&logoColor=white)](https://huggingface.co/datasets/yongchoooon/STIPLAR)
 
 ## 🎉 Congratulations!
 This repository is the official implementation of the oral paper accepted to the AIBSD workshop at AAAI 2026: [Official Workshop Page](https://aibsdworkshop.github.io/2026/index.html)
