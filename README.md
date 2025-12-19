@@ -153,13 +153,10 @@ Special thanks to these great projects [weichaozeng/TextCtrl](https://github.com
 ## Citation
 
 ```tex
-@misc{seo2025stellarscenetexteditor,
-      title={STELLAR: Scene Text Editor for Low-Resource Languages and Real-World Data}, 
-      author={Yongdeuk Seo and Hyun-seok Min and Sungchul Choi},
-      year={2025},
-      eprint={2511.09977},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2511.09977}, 
+@article{seo2025stellar,
+  title={STELLAR: Scene Text Editor for Low-Resource Languages and Real-World Data},
+  author={Seo, Yongdeuk and Min, Hyun-seok and Choi, Sungchul},
+  journal={arXiv preprint arXiv:2511.09977},
+  year={2025}
 }
 ```
