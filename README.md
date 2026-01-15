@@ -65,7 +65,12 @@ python inference_by_config.py --config cfg_infer_ko_stage2
 
 ## Training
 ### Data Preparation: Stage 1
-The synthetic data used for Stage 1 training can be generated in the `datagen` folder. This is a modified version of the code from [SRNet-Datagen](https://github.com/youdao-ai/SRNet-Datagen). Arrange the directory structure as shown below:
+The synthetic data used for Stage 1 training can be generated in the `datagen` folder. This is a modified version of the code from [SRNet-Datagen](https://github.com/youdao-ai/SRNet-Datagen). Download the background images archive from [this link](http://www.robots.ox.ac.uk/~vgg/data/scenetext/preproc/bg_img.tar.gz), extract it, and place the resulting folder inside `datagen/` as `datagen/bg_img` so the generator can locate the backgrounds. Select a configuration file from `datagen/configs/` and run the generator script, for example:
+```bash
+cd datagen
+python datagen.py --config cfg_ko_filter
+```
+Arrange the directory structure as shown below:
 ```bash
 Syn_data/
 ├── fonts/
@@ -147,8 +152,12 @@ python evaluation_ocr.py --config cfg_STIPLAR_jp --lang jp
 python evaluation_ocr_ar.py --config cfg_STIPLAR_ar --lang ar --credentials /path/to/your/credentials.json
 ```
 
-## Related Resources
-Special thanks to these great projects [weichaozeng/TextCtrl](https://github.com/weichaozeng/TextCtrl).
+## Related Works
+Special thanks to these great projects:
+- [weichaozeng/TextCtrl](https://github.com/weichaozeng/TextCtrl)
+- [youdao-ai/SRNet-Datagen](https://github.com/youdao-ai/SRNet-Datagen)
+- [ankush-me/SynthText](https://github.com/ankush-me/SynthText)
+- [youngkyung/SynthText_kr](https://github.com/youngkyung/SynthText_kr)
 
 ## Citation
 
